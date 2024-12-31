@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Priya Sharma",
+    "title": "Educator & Curriculum Designer",
+    "description": "Scholar has revolutionized the way I design and deliver courses. Its intuitive tools and vast resources empower educators to create impactful learning experiences.",
+    "imageUrl": "/201.jpeg"
+  },
+  {
+    "name": "Ankit Malhotra",
+    "title": "Software Engineer & Learner",
+    "description": "With Scholar, I was able to enhance my technical skills and gain certifications that boosted my career prospects. The platform’s structured courses are truly top-notch.",
+    "imageUrl": "/202.jpeg"
+  },
+  {
+    "name": "Dr. Priya Sharma",
+    "title": "Educator & Curriculum Designer",
+    "description": "Scholar has revolutionized the way I design and deliver courses. Its intuitive tools and vast resources empower educators to create impactful learning experiences.",
+    "imageUrl": "/201.jpeg"
+  },
+  {
+    "name": "Sophia Carter",
+    "title": "Student & Aspiring Entrepreneur",
+    "description": "Scholar has been instrumental in shaping my entrepreneurial mindset. The courses are engaging and provide real-world insights that prepare me for future challenges.",
+    "imageUrl": "/203.jpeg"
+  },
+  {
+    "name": "Rajesh Kumar",
+    "title": "Freelancer & Mentor",
+    "description": "Scholar’s resources have helped me stay updated with industry trends. The platform also allows me to mentor students and share my knowledge with a global audience.",
+    "imageUrl": "/204.jpeg"
+  }
+]
