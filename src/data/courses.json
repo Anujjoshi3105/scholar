@@ -1,282 +1,752 @@
 [
   {
-    "id": "1",
-    "title": "Full Stack Modern JavaScript",
-    "subtitle": "Master JS, React, and Node.js",
-    "instructor": "Colt Steele",
-    "image": "/web.jpg",
-    "students": 15050,
-    "lessons": 120,
-    "price": 89.99,
-    "rating": 4.8,
+    "id": "react-nextjs-2023",
+    "title": "Advanced React and Next.js Development",
+    "subtitle": "Master modern web development with React and Next.js",
     "category": "Web Development",
     "level": "Intermediate",
-    "bestSeller": true
-  },
-  {
-    "id": "2",
-    "title": "Design Systems with React",
-    "subtitle": "Create scalable design systems",
-    "instructor": "Sarah Drasner",
-    "image": "/ai.jpg",
-    "students": 8550,
-    "lessons": 85,
-    "price": 79.99,
-    "rating": 4.7,
-    "category": "UI/UX Design",
-    "level": "Advanced",
-    "bestSeller": false
-  },
-  {
-    "id": "3",
-    "title": "Advanced Figma Techniques",
-    "subtitle": "Master modern UI design",
-    "instructor": "Jane Doe",
-    "image": "/blockchain.jpg",
-    "students": 12050,
-    "lessons": 95,
-    "price": 69.99,
-    "rating": 4.9,
-    "category": "UI/UX Design",
-    "level": "Advanced",
-    "bestSeller": true
-  },
-  {
-    "id": "4",
-    "title": "Machine Learning Fundamentals",
-    "subtitle": "Build intelligent systems",
-    "instructor": "Andrew Ng",
-    "image": "/ai.jpg",
-    "students": 20050,
-    "lessons": 150,
-    "price": 99.99,
-    "rating": 4.9,
-    "category": "Data Science",
-    "level": "Beginner",
-    "bestSeller": true
-  },
-  {
-    "id": "5",
-    "title": "iOS App Development with Swift",
-    "subtitle": "Create stunning iOS applications",
-    "instructor": "Angela Yu",
-    "image": "/web.jpg",
-    "students": 18050,
-    "lessons": 110,
-    "price": 84.99,
     "rating": 4.8,
-    "category": "Mobile Development",
-    "level": "Intermediate",
-    "bestSeller": false
-  },
-  {
-    "id": "6",
-    "title": "Blockchain and Cryptocurrency",
-    "subtitle": "Understand the future of finance",
-    "instructor": "Nick Szabo",
-    "image": "/blockchain.jpg",
-    "students": 9550,
-    "lessons": 80,
-    "price": 74.99,
-    "rating": 4.6,
-    "category": "Blockchain",
-    "level": "Intermediate",
-    "bestSeller": false
-  },
-  {
-    "id": "7",
-    "title": "Data Structures and Algorithms",
-    "subtitle": "Ace your coding interviews",
-    "instructor": "Gayle Laakmann McDowell",
+    "totalReviews": 1234,
+    "language": "English",
+    "bestSeller": true,
+    "students": 15050,
     "image": "/web.jpg",
-    "students": 25050,
-    "lessons": 200,
-    "price": 94.99,
-    "rating": 4.9,
-    "category": "Computer Science",
+    "sections": [
+      {
+        "title": "Introduction to React Hooks",
+        "totalDuration": "1h 15m",
+        "lessons": [
+          {
+            "title": "Understanding useState",
+            "duration": "15:00",
+            "description": "Learn how to manage state in functional components using the useState hook."
+          },
+          {
+            "title": "useEffect in depth",
+            "duration": "20:00",
+            "description": "Explore the useEffect hook for handling side effects in your components."
+          },
+          {
+            "title": "Custom Hooks",
+            "duration": "25:00",
+            "description": "Create reusable logic with custom hooks to enhance code reusability."
+          },
+          {
+            "title": "useContext for state management",
+            "duration": "15:00",
+            "description": "Understand how to use the Context API with the useContext hook for global state management."
+          }
+        ]
+      },
+      {
+        "title": "Next.js Fundamentals",
+        "totalDuration": "2h 30m",
+        "lessons": [
+          {
+            "title": "Setting up a Next.js project",
+            "duration": "20:00",
+            "description": "Learn how to create and configure a new Next.js project from scratch."
+          },
+          {
+            "title": "Routing in Next.js",
+            "duration": "30:00",
+            "description": "Explore the file-based routing system in Next.js and how to create dynamic routes."
+          },
+          {
+            "title": "Server-side rendering (SSR)",
+            "duration": "45:00",
+            "description": "Understand the concepts of SSR and how to implement it in Next.js applications."
+          },
+          {
+            "title": "Static Site Generation (SSG)",
+            "duration": "35:00",
+            "description": "Learn how to generate static pages for improved performance and SEO."
+          },
+          {
+            "title": "API Routes",
+            "duration": "20:00",
+            "description": "Create API endpoints within your Next.js application for handling server-side logic."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "6 hours 30 minutes",
+    "instructor": {
+      "name": "Jane Doe",
+      "bio": "Senior Frontend Developer with 10 years of experience",
+      "profilePicture": "/placeholder.svg?height=200&width=200",
+      "qualifications": [
+        "React Core Team Member",
+        "Author of 'Mastering React' book",
+        "Speaker at ReactConf"
+      ]
+    },
+    "learningOutcomes": [
+      "Build complex React applications using hooks",
+      "Implement server-side rendering with Next.js",
+      "Optimize React applications for performance",
+      "Apply advanced React patterns in real-world scenarios",
+      "Create scalable and maintainable React and Next.js applications"
+    ],
+    "price": 99.99,
+    "discountedPrice": 79.99,
+    "enrollmentLink": "#enroll",
+    "reviews": [
+      {
+        "userName": "John Smith",
+        "rating": 5,
+        "comment": "This course is amazing! I've learned so much about React and Next.js."
+      },
+      {
+        "userName": "Sarah Johnson",
+        "rating": 4,
+        "comment": "Great content, but I wish there were more practical exercises."
+      },
+      {
+        "userName": "Michael Brown",
+        "rating": 5,
+        "comment": "The instructor's explanations are clear and easy to follow. Highly recommended!"
+      }
+    ]
+  },
+  {
+    "id": "non-trivial-projects",
+    "title": "Building Non-Trivial Projects",
+    "subtitle": "Learn to tackle complex and non-trivial software projects",
+    "category": "Software Development",
     "level": "Advanced",
-    "bestSeller": true
-  },
-  {
-    "id": "8",
-    "title": "Python for Data Science",
-    "subtitle": "Analyze and visualize data",
-    "instructor": "Jose Portilla",
-    "image": "/web.jpg",
-    "students": 22050,
-    "lessons": 180,
-    "price": 89.99,
     "rating": 4.7,
-    "category": "Data Science",
-    "level": "Intermediate",
-    "bestSeller": false
-  },
-  {
-    "id": "9",
-    "title": "Mastering Kubernetes",
-    "subtitle": "Deploy scalable microservices",
-    "instructor": "Kelsey Hightower",
-    "image": "/web.jpg",
-    "students": 14050,
-    "lessons": 100,
+    "totalReviews": 834,
+    "language": "English",
+    "bestSeller": false,
+    "students": 12040,
+    "image": "/projects.jpg",
+    "sections": [
+      {
+        "title": "Defining Non-Trivial Projects",
+        "totalDuration": "1h 30m",
+        "lessons": [
+          {
+            "title": "Characteristics of Non-Trivial Projects",
+            "duration": "20:00",
+            "description": "Understand what makes a project non-trivial and its unique challenges."
+          },
+          {
+            "title": "Planning and Architecture",
+            "duration": "40:00",
+            "description": "Learn the importance of planning and architectural design in large projects."
+          },
+          {
+            "title": "Collaboration Techniques",
+            "duration": "30:00",
+            "description": "Explore effective collaboration methods for tackling non-trivial projects."
+          }
+        ]
+      },
+      {
+        "title": "Executing Non-Trivial Projects",
+        "totalDuration": "2h 10m",
+        "lessons": [
+          {
+            "title": "Development Strategies",
+            "duration": "50:00",
+            "description": "Learn the best practices and strategies for developing non-trivial projects."
+          },
+          {
+            "title": "Testing and Debugging",
+            "duration": "40:00",
+            "description": "Understand the importance of thorough testing and debugging in large projects."
+          },
+          {
+            "title": "Deployment and Maintenance",
+            "duration": "40:00",
+            "description": "Explore strategies for deploying and maintaining complex projects."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "5 hours 10 minutes",
+    "instructor": {
+      "name": "Alice Cooper",
+      "bio": "Lead Software Engineer with expertise in large-scale projects",
+      "profilePicture": "/placeholder.svg?height=200&width=200",
+      "qualifications": [
+        "10+ years of experience in software development",
+        "Speaker at international tech conferences",
+        "Contributor to open-source projects"
+      ]
+    },
+    "learningOutcomes": [
+      "Identify challenges in non-trivial projects",
+      "Create effective plans and architecture",
+      "Collaborate with teams effectively",
+      "Ensure project quality through testing and debugging",
+      "Deploy and maintain complex software systems"
+    ],
     "price": 109.99,
-    "rating": 4.8,
-    "category": "Cloud Computing",
-    "level": "Advanced",
-    "bestSeller": true
+    "discountedPrice": 89.99,
+    "enrollmentLink": "#enroll",
+    "reviews": [
+      {
+        "userName": "Emily Carter",
+        "rating": 5,
+        "comment": "Excellent course with practical advice for large projects."
+      },
+      {
+        "userName": "James Wilson",
+        "rating": 4,
+        "comment": "Great insights, though some examples were too advanced for me."
+      },
+      {
+        "userName": "Sophia Lee",
+        "rating": 5,
+        "comment": "Highly recommend for anyone working on challenging projects."
+      }
+    ]
   },
   {
-    "id": "10",
-    "title": "Cybersecurity Basics",
-    "subtitle": "Protect systems from attacks",
-    "instructor": "Bruce Schneier",
-    "image": "/web.jpg",
-    "students": 9500,
-    "lessons": 75,
-    "price": 64.99,
-    "rating": 4.5,
-    "category": "Cybersecurity",
-    "level": "Beginner",
-    "bestSeller": false
-  },
-  {
-    "id": "11",
-    "title": "Deep Learning with PyTorch",
-    "subtitle": "Build intelligent neural networks",
-    "instructor": "Yann LeCun",
-    "image": "/web.jpg",
-    "students": 17050,
-    "lessons": 125,
+    "id": "rsa-algorithms-2023",
+    "title": "Mastering RSA Algorithms",
+    "subtitle": "Dive deep into RSA encryption and its practical applications",
+    "category": "Cryptography",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "totalReviews": 945,
+    "language": "English",
+    "bestSeller": true,
+    "students": 8450,
+    "image": "/rsa.jpg",
+    "sections": [
+      {
+        "title": "Introduction to Cryptography",
+        "totalDuration": "1h 20m",
+        "lessons": [
+          {
+            "title": "History of Cryptography",
+            "duration": "15:00",
+            "description": "Learn about the evolution of cryptographic techniques."
+          },
+          {
+            "title": "Basics of Encryption",
+            "duration": "25:00",
+            "description": "Understand the principles of encryption and decryption."
+          },
+          {
+            "title": "Introduction to RSA",
+            "duration": "40:00",
+            "description": "Explore the fundamentals of RSA encryption and its significance."
+          }
+        ]
+      },
+      {
+        "title": "Advanced RSA Techniques",
+        "totalDuration": "2h 15m",
+        "lessons": [
+          {
+            "title": "Mathematical Foundations",
+            "duration": "40:00",
+            "description": "Dive into the mathematical principles behind RSA encryption."
+          },
+          {
+            "title": "Implementing RSA",
+            "duration": "45:00",
+            "description": "Learn to implement RSA encryption in software applications."
+          },
+          {
+            "title": "Security Analysis",
+            "duration": "50:00",
+            "description": "Understand how to analyze and improve the security of RSA systems."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "6 hours 20 minutes",
+    "instructor": {
+      "name": "Dr. Edward Norton",
+      "bio": "Cryptography Expert and University Professor",
+      "profilePicture": "/placeholder.svg?height=200&width=200",
+      "qualifications": [
+        "PhD in Cryptography",
+        "Author of 'RSA and Modern Cryptography'",
+        "Advisor to cybersecurity companies"
+      ]
+    },
+    "learningOutcomes": [
+      "Understand the foundations of cryptography",
+      "Master the principles and implementation of RSA encryption",
+      "Analyze the security of cryptographic systems",
+      "Apply RSA in real-world scenarios",
+      "Enhance the robustness of encryption techniques"
+    ],
     "price": 119.99,
+    "discountedPrice": 99.99,
+    "enrollmentLink": "#enroll",
+    "reviews": [
+      {
+        "userName": "Oliver Scott",
+        "rating": 5,
+        "comment": "A must-take course for anyone interested in cryptography."
+      },
+      {
+        "userName": "Charlotte Green",
+        "rating": 4,
+        "comment": "Great content, but I found the math section a bit challenging."
+      },
+      {
+        "userName": "Ethan Adams",
+        "rating": 5,
+        "comment": "Clear explanations and practical examples. Loved it!"
+      }
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "title": "Machine Learning Mastery",
+    "subtitle": "Learn the fundamentals and applications of Machine Learning.",
+    "category": "AI/ML",
+    "image": "/ai.jpg",
+    "students": 7000,
+    "level": "Intermediate to Advanced",
     "rating": 4.9,
-    "category": "Artificial Intelligence",
-    "level": "Advanced",
-    "bestSeller": true
+    "totalReviews": 1500,
+    "language": "English",
+    "bestSeller": true,
+    "sections": [
+      {
+        "title": "Introduction to Machine Learning",
+        "totalDuration": "3 hours",
+        "lessons": [
+          {
+            "title": "What is Machine Learning?",
+            "duration": "45 minutes",
+            "description": "Overview of ML, types, and real-world applications."
+          },
+          {
+            "title": "Setting Up ML Environment",
+            "duration": "30 minutes",
+            "description": "Tools and libraries used in ML projects."
+          }
+        ]
+      },
+      {
+        "title": "Supervised and Unsupervised Learning",
+        "totalDuration": "6 hours",
+        "lessons": [
+          {
+            "title": "Linear Regression",
+            "duration": "1 hour",
+            "description": "Learn linear regression and its applications."
+          },
+          {
+            "title": "Clustering Techniques",
+            "duration": "1.5 hours",
+            "description": "Explore clustering algorithms like K-Means and DBSCAN."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "18 hours",
+    "instructor": {
+      "name": "Michael Johnson",
+      "bio": "Michael is a data scientist with 15+ years of experience in AI/ML.",
+      "profilePicture": "/michael-johnson.jpg",
+      "qualifications": [
+        "PhD in Computer Science",
+        "ML Expert at Top Tech Company"
+      ]
+    },
+    "learningOutcomes": [
+      "Understand key ML algorithms.",
+      "Work with ML tools and frameworks.",
+      "Build predictive models from scratch."
+    ],
+    "price": 89.99,
+    "discountedPrice": 69.99,
+    "enrollmentLink": "/ml-course",
+    "reviews": [
+      {
+        "userName": "Sophia Williams",
+        "rating": 5,
+        "comment": "In-depth and practical learning experience!"
+      },
+      {
+        "userName": "Liam Martin",
+        "rating": 4.8,
+        "comment": "Well-structured course with excellent examples."
+      }
+    ]
   },
   {
-    "id": "12",
-    "title": "Photography Essentials",
-    "subtitle": "Capture stunning visuals",
-    "instructor": "Annie Leibovitz",
-    "image": "/web.jpg",
-    "students": 16000,
-    "lessons": 50,
-    "price": 49.99,
-    "rating": 4.6,
-    "category": "Photography",
-    "level": "Beginner",
-    "bestSeller": false
-  },
-  {
-    "id": "13",
-    "title": "Mastering DevOps",
-    "subtitle": "Automate CI/CD pipelines",
-    "instructor": "Jez Humble",
-    "image": "/web.jpg",
-    "students": 11500,
-    "lessons": 95,
-    "price": 99.99,
+    "id": "cyber-security",
+    "title": "Cyber Security Essentials",
+    "subtitle": "Protect systems and networks from cyber threats.",
+    "category": "Cyber Security",
+    "image": "/cyber.jpg",
+    "students": 4000,
+    "level": "Beginner to Intermediate",
     "rating": 4.7,
-    "category": "DevOps",
-    "level": "Intermediate",
-    "bestSeller": false
-  },
-  {
-    "id": "14",
-    "title": "Game Development with Unity",
-    "subtitle": "Create engaging games",
-    "instructor": "Brackeys",
-    "image": "/web.jpg",
-    "students": 13500,
-    "lessons": 120,
-    "price": 79.99,
-    "rating": 4.8,
-    "category": "Game Development",
-    "level": "Intermediate",
-    "bestSeller": true
-  },
-  {
-    "id": "15",
-    "title": "Excel for Data Analysis",
-    "subtitle": "Master pivot tables and charts",
-    "instructor": "Jon Acampora",
-    "image": "/web.jpg",
-    "students": 19050,
-    "lessons": 70,
+    "totalReviews": 600,
+    "language": "English",
+    "bestSeller": false,
+    "sections": [
+      {
+        "title": "Introduction to Cyber Security",
+        "totalDuration": "2 hours",
+        "lessons": [
+          {
+            "title": "Understanding Cyber Threats",
+            "duration": "45 minutes",
+            "description": "Overview of different types of cyber threats."
+          },
+          {
+            "title": "Cyber Security Basics",
+            "duration": "1 hour",
+            "description": "Learn key principles of cybersecurity."
+          }
+        ]
+      },
+      {
+        "title": "Practical Cyber Security",
+        "totalDuration": "5 hours",
+        "lessons": [
+          {
+            "title": "Setting Up Firewalls",
+            "duration": "1 hour",
+            "description": "Configure and manage firewalls effectively."
+          },
+          {
+            "title": "Ethical Hacking Basics",
+            "duration": "1.5 hours",
+            "description": "Understand penetration testing and tools."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "12 hours",
+    "instructor": {
+      "name": "Rebecca Green",
+      "bio": "Rebecca is a cybersecurity analyst with over 10 years of experience.",
+      "profilePicture": "/rebecca-green.jpg",
+      "qualifications": [
+        "Certified Ethical Hacker",
+        "Cyber Security Specialist"
+      ]
+    },
+    "learningOutcomes": [
+      "Understand basic cyber threats.",
+      "Implement key security measures.",
+      "Learn ethical hacking techniques."
+    ],
     "price": 59.99,
-    "rating": 4.6,
-    "category": "Data Analysis",
+    "discountedPrice": 44.99,
+    "enrollmentLink": "/cyber-security-course",
+    "reviews": [
+      {
+        "userName": "Ethan Clark",
+        "rating": 4.5,
+        "comment": "Great for beginners looking to get into cybersecurity!"
+      },
+      {
+        "userName": "Emma Johnson",
+        "rating": 4.8,
+        "comment": "Loved the practical sessions on firewalls and hacking."
+      }
+    ]
+  },
+  {
+    "id": "robotics",
+    "title": "Robotics for Beginners",
+    "subtitle": "Explore the exciting world of robotics.",
+    "category": "Engineering",
+    "image": "/robotics.jpg",
+    "students": 3000,
     "level": "Beginner",
-    "bestSeller": false
-  },
-  {
-    "id": "16",
-    "title": "Docker Essentials",
-    "subtitle": "Containerize applications",
-    "instructor": "Solomon Hykes",
-    "image": "/web.jpg",
-    "students": 12050,
-    "lessons": 85,
-    "price": 74.99,
-    "rating": 4.8,
-    "category": "DevOps",
-    "level": "Intermediate",
-    "bestSeller": true
-  },
-  {
-    "id": "17",
-    "title": "Introduction to Virtual Reality",
-    "subtitle": "Explore VR development",
-    "instructor": "John Carmack",
-    "image": "/web.jpg",
-    "students": 10500,
-    "lessons": 65,
-    "price": 69.99,
     "rating": 4.5,
-    "category": "Virtual Reality",
-    "level": "Beginner",
-    "bestSeller": false
+    "totalReviews": 400,
+    "language": "English",
+    "bestSeller": false,
+    "sections": [
+      {
+        "title": "Introduction to Robotics",
+        "totalDuration": "2.5 hours",
+        "lessons": [
+          {
+            "title": "What is Robotics?",
+            "duration": "1 hour",
+            "description": "Learn the basics of robotics and its applications."
+          },
+          {
+            "title": "Robotics Components",
+            "duration": "1.5 hours",
+            "description": "Understand sensors, actuators, and controllers."
+          }
+        ]
+      },
+      {
+        "title": "Building Your First Robot",
+        "totalDuration": "4 hours",
+        "lessons": [
+          {
+            "title": "Assembling Components",
+            "duration": "2 hours",
+            "description": "Step-by-step guide to building a simple robot."
+          },
+          {
+            "title": "Programming the Robot",
+            "duration": "2 hours",
+            "description": "Write basic programs to control your robot."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "15 hours",
+    "instructor": {
+      "name": "Andrew Carter",
+      "bio": "Andrew is a robotics engineer with a passion for teaching.",
+      "profilePicture": "/andrew-carter.jpg",
+      "qualifications": ["Robotics Engineer", "Certified Arduino Expert"]
+    },
+    "learningOutcomes": [
+      "Understand robotics fundamentals.",
+      "Build and program simple robots.",
+      "Learn key robotics components and their functions."
+    ],
+    "price": 49.99,
+    "discountedPrice": 34.99,
+    "enrollmentLink": "/robotics-course",
+    "reviews": [
+      {
+        "userName": "Olivia Brown",
+        "rating": 4.7,
+        "comment": "Perfect introduction to robotics!"
+      },
+      {
+        "userName": "James Wilson",
+        "rating": 4.4,
+        "comment": "Hands-on approach was very helpful."
+      }
+    ]
   },
   {
-    "id": "18",
-    "title": "Mastering Java Programming",
-    "subtitle": "Build robust applications",
-    "instructor": "James Gosling",
-    "image": "/web.jpg",
-    "students": 25050,
-    "lessons": 130,
-    "price": 89.99,
-    "rating": 4.7,
+    "id": "python",
+    "title": "Mastering Python Programming",
+    "subtitle": "Learn Python from scratch to advanced applications.",
     "category": "Programming",
-    "level": "Advanced",
-    "bestSeller": true
-  },
-  {
-    "id": "19",
-    "title": "AWS Cloud Practitioner",
-    "subtitle": "Kickstart your cloud journey",
-    "instructor": "Jeff Barr",
-    "image": "/web.jpg",
-    "students": 17050,
-    "lessons": 90,
-    "price": 94.99,
+    "image": "/python.jpg",
+    "students": 5000,
+    "level": "Beginner to Advanced",
     "rating": 4.8,
-    "category": "Cloud Computing",
-    "level": "Beginner",
-    "bestSeller": false
+    "totalReviews": 1200,
+    "language": "English",
+    "bestSeller": true,
+    "sections": [
+      {
+        "title": "Getting Started with Python",
+        "totalDuration": "4 hours",
+        "lessons": [
+          {
+            "title": "Introduction to Python",
+            "duration": "30 minutes",
+            "description": "Overview of Python and its applications."
+          },
+          {
+            "title": "Setting Up Python Environment",
+            "duration": "45 minutes",
+            "description": "Guide to installing Python and setting up the environment."
+          }
+        ]
+      },
+      {
+        "title": "Intermediate Python",
+        "totalDuration": "6 hours",
+        "lessons": [
+          {
+            "title": "Data Structures in Python",
+            "duration": "1 hour",
+            "description": "Learn lists, dictionaries, sets, and more."
+          },
+          {
+            "title": "Object-Oriented Programming",
+            "duration": "1.5 hours",
+            "description": "Introduction to classes, objects, and OOP principles."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "20 hours",
+    "instructor": {
+      "name": "John Doe",
+      "bio": "John is a seasoned Python developer with 10+ years of experience.",
+      "profilePicture": "/john-doe.jpg",
+      "qualifications": ["Python Certified Professional", "Industry Expert"]
+    },
+    "learningOutcomes": [
+      "Write Python scripts for various tasks.",
+      "Understand data structures and algorithms in Python.",
+      "Build Python applications and automate workflows."
+    ],
+    "price": 49.99,
+    "discountedPrice": 39.99,
+    "enrollmentLink": "/python-course",
+    "reviews": [
+      {
+        "userName": "Alice Smith",
+        "rating": 5,
+        "comment": "The course was excellent and very detailed."
+      },
+      {
+        "userName": "Bob Johnson",
+        "rating": 4,
+        "comment": "Great course but could use more examples."
+      }
+    ]
   },
   {
-    "id": "20",
-    "title": "Ethical Hacking and Penetration Testing",
-    "subtitle": "Discover security vulnerabilities",
-    "instructor": "Kevin Mitnick",
+    "id": "java",
+    "title": "Complete Java Development",
+    "subtitle": "Learn Java for desktop, web, and mobile applications.",
+    "category": "Programming",
+    "image": "/java.jpg",
+    "students": 8000,
+    "level": "Intermediate",
+    "rating": 4.7,
+    "totalReviews": 950,
+    "language": "English",
+    "bestSeller": true,
+    "sections": [
+      {
+        "title": "Core Java Concepts",
+        "totalDuration": "5 hours",
+        "lessons": [
+          {
+            "title": "Java Basics",
+            "duration": "1 hour",
+            "description": "Introduction to Java programming language."
+          },
+          {
+            "title": "Control Flow in Java",
+            "duration": "1.5 hours",
+            "description": "Learn loops, conditions, and control structures."
+          }
+        ]
+      },
+      {
+        "title": "Advanced Java",
+        "totalDuration": "7 hours",
+        "lessons": [
+          {
+            "title": "Spring Framework",
+            "duration": "2 hours",
+            "description": "Introduction to Spring and dependency injection."
+          },
+          {
+            "title": "JavaFX for GUI Development",
+            "duration": "2 hours",
+            "description": "Create interactive GUI applications with JavaFX."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "25 hours",
+    "instructor": {
+      "name": "Jane Smith",
+      "bio": "Jane is a Java expert with extensive experience in enterprise-level applications.",
+      "profilePicture": "/jane-smith.jpg",
+      "qualifications": ["Certified Java Developer", "Senior Software Engineer"]
+    },
+    "learningOutcomes": [
+      "Develop Java applications.",
+      "Understand object-oriented programming.",
+      "Build robust and scalable Java solutions."
+    ],
+    "price": 79.99,
+    "discountedPrice": 59.99,
+    "enrollmentLink": "/java-course",
+    "reviews": [
+      {
+        "userName": "Chris Evans",
+        "rating": 5,
+        "comment": "Perfect course for mastering Java!"
+      },
+      {
+        "userName": "Dana Lee",
+        "rating": 4.5,
+        "comment": "Loved the detailed explanations and examples."
+      }
+    ]
+  },
+  {
+    "id": "web-design",
+    "title": "Web Design Masterclass",
+    "subtitle": "Design beautiful, responsive websites.",
+    "category": "Web Development",
     "image": "/web.jpg",
-    "students": 14050,
-    "lessons": 100,
-    "price": 89.99,
-    "rating": 4.9,
-    "category": "Cybersecurity",
-    "level": "Advanced",
-    "bestSeller": true
+    "students": 6000,
+    "level": "Beginner to Intermediate",
+    "rating": 4.6,
+    "totalReviews": 700,
+    "language": "English",
+    "bestSeller": false,
+    "sections": [
+      {
+        "title": "HTML and CSS Basics",
+        "totalDuration": "3 hours",
+        "lessons": [
+          {
+            "title": "Introduction to HTML",
+            "duration": "1 hour",
+            "description": "Learn the structure of web pages with HTML."
+          },
+          {
+            "title": "Styling with CSS",
+            "duration": "1.5 hours",
+            "description": "Use CSS to style and layout your web pages."
+          }
+        ]
+      },
+      {
+        "title": "Responsive Design",
+        "totalDuration": "4 hours",
+        "lessons": [
+          {
+            "title": "Media Queries",
+            "duration": "1 hour",
+            "description": "Learn how to create responsive designs."
+          },
+          {
+            "title": "Flexbox and Grid",
+            "duration": "2 hours",
+            "description": "Master modern CSS layout techniques."
+          }
+        ]
+      }
+    ],
+    "totalDuration": "15 hours",
+    "instructor": {
+      "name": "Emily Davis",
+      "bio": "Emily is a UI/UX designer with a passion for teaching web design.",
+      "profilePicture": "/emily-davis.jpg",
+      "qualifications": ["Certified Web Designer", "UI/UX Specialist"]
+    },
+    "learningOutcomes": [
+      "Create visually appealing web pages.",
+      "Understand the principles of responsive design.",
+      "Enhance user experience with effective design practices."
+    ],
+    "price": 69.99,
+    "discountedPrice": 49.99,
+    "enrollmentLink": "/web-design-course",
+    "reviews": [
+      {
+        "userName": "Alex Taylor",
+        "rating": 4.8,
+        "comment": "Very helpful and easy to follow!"
+      },
+      {
+        "userName": "Jordan Brown",
+        "rating": 4.5,
+        "comment": "Great course, but I wanted more advanced examples."
+      }
+    ]
   }
 ]

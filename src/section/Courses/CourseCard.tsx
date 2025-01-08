@@ -10,21 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { BookOpen } from "lucide-react";
 import { FaStar } from "react-icons/fa6";
 import Link from "next/link";
-
-interface Course {
-  id: string;
-  title: string;
-  subtitle: string;
-  instructor: string;
-  image: string;
-  students: number;
-  lessons: number;
-  price: number;
-  rating: number;
-  category: string;
-  level: string;
-  bestSeller: boolean;
-}
+import { Course } from "@/types/course";
 
 export default function CourseCard({ course }: { course: Course }) {
   if (!course) return null;
@@ -40,6 +26,10 @@ export default function CourseCard({ course }: { course: Course }) {
       />
     ));
   };
+  const totalLessons = course.sections.reduce(
+    (total, section) => total + section.lessons.length,
+    0
+  );
 
   return (
     <Link href={`/courses/${course.id}`}>
@@ -65,7 +55,7 @@ export default function CourseCard({ course }: { course: Course }) {
           <p className="text-sm text-muted-foreground mb-2">
             {course.subtitle}
           </p>
-          <p className="text-sm font-medium mb-2">{course.instructor}</p>
+          <p className="text-sm font-medium mb-2">{course.instructor.name}</p>
           <div className="flex items-center mb-2">
             <span className="text-yellow-500 mr-1">
               {course.rating.toFixed(1)}
@@ -85,7 +75,7 @@ export default function CourseCard({ course }: { course: Course }) {
         <CardFooter className="flex justify-between items-center">
           <div className="flex items-center text-sm text-muted-foreground">
             <BookOpen className="w-4 h-4 mr-1" />
-            {course.lessons} lessons
+            {totalLessons} lessons
           </div>
         </CardFooter>
       </Card>

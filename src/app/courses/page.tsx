@@ -7,7 +7,7 @@ import CourseCard from "@/section/Courses/CourseCard";
 
 export default function Courses() {
   const [showAll, setShowAll] = useState(false);
-  const displayedCourses = showAll ? courses : courses.slice(0, 6);
+  const displayedCourses = courses;
 
   return (
     <section className="pt-36" id="courses">
