@@ -5,9 +5,10 @@ import { notFound } from "next/navigation";
 export default async function CoursePage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const course = await getCourseData(params.id);
+  const { id } = await params;
+  const course = await getCourseData(id);
 
   if (!course) {
     notFound();
