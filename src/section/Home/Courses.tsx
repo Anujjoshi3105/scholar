@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import courses from "@/data/courses.json";
 import CourseCard from "@/section/Courses/CourseCard";
 import { GraduationCap } from "lucide-react";
+import { Course } from "@/types/course";
 
 export default function Courses() {
   return (
@@ -19,7 +20,7 @@ export default function Courses() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {courses.slice(0, 6).map((course) => (
-            <CourseCard key={course.id} course={course} />
+            <CourseCard key={course.id} course={course as Course} />
           ))}
         </div>
         <div className="mt-8 text-center">
