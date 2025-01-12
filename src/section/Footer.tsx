@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import axios from "axios";
 import {
   Mail,
   Facebook,
@@ -12,15 +13,42 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
+import { toast } from "sonner";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log("Subscribed with email:", email);
-    setEmail("");
+    setLoading(true);
+
+    try {
+      const response = await axios.post(
+        "/api/send-email",
+        { email, name: "scholar", message: "subscribe for newsletter" },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (!response.data) {
+        throw new Error("Failed to send email");
+      }
+
+      toast("Message Sent", {
+        description: "Thank you for your message. We'll get back to you soon!",
+      });
+      setEmail("");
+    } catch {
+      toast("Error", {
+        description: `There was an error sending your message. Please try again. If the problem persists, please contact us directly at ${process.env.NEXT_PUBLIC_ADMIN_MAIL}.`,
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -50,9 +78,10 @@ export default function Footer() {
                     className="w-full bg-primary-foreground text-primary"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    disabled={loading}
                   />
                 </div>
-                <Button type="submit" size="lg">
+                <Button type="submit" size="lg" disabled={loading}>
                   <Mail className="h-4 w-4" /> Subscribe
                 </Button>
               </div>
