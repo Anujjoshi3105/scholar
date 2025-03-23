@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/section/Header";
 import Footer from "@/section/Footer";
+import Chatbot from "@/components/Chatbot";
 
 export const metadata: Metadata = {
   title: "Scholar: Knowledge Without Limits",
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Header />
         {children}
+        <Chatbot />
         <Footer />
       </body>
     </html>
