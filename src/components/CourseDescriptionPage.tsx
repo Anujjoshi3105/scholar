@@ -21,6 +21,7 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { Course, Lesson } from "@/types/course";
 import Image from "next/image";
+import CourseDialog from "@/section/CourseForm";
 
 export default function CourseDescriptionPage({ course }: { course: Course }) {
   const {
@@ -37,7 +38,6 @@ export default function CourseDescriptionPage({ course }: { course: Course }) {
     learningOutcomes,
     price,
     discountedPrice,
-    enrollmentLink,
     reviews,
   } = course;
 
@@ -207,9 +207,7 @@ export default function CourseDescriptionPage({ course }: { course: Course }) {
                   `$${price}`
                 )}
               </div>
-              <Button className="w-full mb-4" size="lg" asChild>
-                <a href={enrollmentLink}>Enroll Now</a>
-              </Button>
+              <CourseDialog />
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <BarChart className="w-5 h-5 mr-2" />
